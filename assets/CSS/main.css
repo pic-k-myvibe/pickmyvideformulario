@@ -1,0 +1,111 @@
+
+.header{
+	height: 70px;
+	background: #4fd4be;
+	display:flex;
+	justify-content: space-between;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.left{
+	width: 30%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+.right{
+	width:40%;
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.header img{
+	height:45px;
+}
+#busqueda{
+	width:205px;
+	height: 35px;
+	padding:8px 16px;
+	border-radius: 4px;
+	border-color: transparent;
+	margin: 0 10px;
+}
+#perfil{
+	margin: 0 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+body{
+	background: #ceeae5;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+text-align: center;
+}
+form{
+	padding: 15px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+}
+.ciudad input{
+	height: 30px;
+	width: 300px;
+	margin-top: 25px;
+}
+.actividad{
+	height: 30px;
+	width: 300px;
+	margin-top: 25px;
+}
+.presupuesto{
+	height: 30px;
+	width: 300px;
+	margin-top: 25px;
+}
+.compania{
+	height: 30px;
+	width: 300px;
+	margin-top: 25px;	
+}
+button{
+	background: #4fd4be;
+	color: white;
+	width: 300px;
+	height: 75px;
+	border-radius: 20px;
+	margin-top: 25px;
+	border-width: 0;
+}
+footer{
+	height: 70px;
+	background: #4fd4be;
+	position: relative;
+	bottom: 0px;
+}
+.izquierda{
+	width:50%;
+}
+.monumento{
+	margin-top: 25px;
+	transform: rotate(350deg);
+	width: 350px;
+	height: 350px;
+	background-color: white;
+	border: 1px solid #4fd4be;
+}
+.monumento img{
+	width: 300px;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+footer a{
+	display: flex;
+	justify-content: center;
+}
+#heart{
+	width:25px;
+}

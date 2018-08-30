@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="assets/CSS/main.css">
+	<title>Formulario de Resultados</title>
+</head>
+<body>
+	<header><b>
+		<nav class="header">
+			<div class="left">
+				<div><a href=""><img src="assets/IMG/logo.png"></a></div>
+				<div><a href="">Lugares</a></div>
+				<div><a href="">Experiencias</a></div>
+			</div>
+			<div class="right">
+				<div><input type="search" id="busqueda" placeholder="Buscar" /></div>
+				<div><a href=""><img src="assets/IMG/profile.png">
+				</a></div>
+				<a href="" id="perfil">Perfil</a>
+			</div>
+		</nav>
+	</b></header>
+	<div>
+		<h1>¡VAMOS A COMENZAR CON TU EXPERIENCIA!</h1>
+	</div>
+	<form class="preguntas">
+		<nav class="izquierda">
+			<div class="monumento">
+				<img src="assets/IMG/revolucionmexicana.jpg">
+				<img src="assets/IMG/red.jpg" id="heart">
+				<img src="assets/IMG/bubble.png" id="heart">
+			</div>
+		</nav>
+		<nav >
+			<div class="derecha">
+				<div for="lugar" class="ciudad">
+					<input type="search" required placeholder="Escribe tu ciudad destino... " name="lugar">
+				</div>
+			</div>
+			<div>
+				<select name="actividad" class="actividad">
+					<option>Selecciona una actividad</option>
+					<option>Acampar</option>
+					<option>Deportes Extremos</option>
+					<option>Espectáculos</option>
+					<option>Museos</option>
+					<option>Restaurantes</option>
+					<option>Visitas de Ciudad</option>
+				</select>
+			</div>
+			<div class="Tiempo">
+				<h4>Horario</h4>
+				<input type="radio" name="Tiempo"/>Mañana
+				<input type="radio" name="Tiempo"/>Tarde
+				<input type="radio" name="Tiempo"/>Noche
+				<input type="radio" name="Tiempo"/>A cualquier hora
+			</div>
+			<div>
+				<select name="Presupuesto" class="presupuesto">
+					<option>Presupuesto</option>
+					<option>$</option>
+					<option>$$</option>
+					<option>$$$</option>
+					<option>$$$$</option>
+					<option>$$$$$</option>
+				</select>
+			</div>
+			<div>
+				<select name="compania" class="compania">
+					<option>¿Con quién realizarás la actividad?</option>
+					<option>Solo</option>
+					<option>En pareja</option>
+					<option>En familia</option>
+					<option>Con los amigos</option>
+				</select>
+			</div>
+			<button><b>¡ENVIAR!</b></button>
+		</nav>
+	</form>
+	<footer>
+		<p>PickMyVibe</p><b>
+		<a href="mailto: kitsunenishizono@gmail.com">¡Contáctanos!</a></a>
+	</footer>
+</body>
+</html>
